@@ -1,0 +1,85 @@
+.descriptions {
+    padding-top: 198px;
+    padding-bottom: 96px;
+}
+.descriptions-card--inner {
+   
+
+    .card-content{
+        &:nth-child(even) {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+        }
+    }
+}
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.descriptions-card {
+    max-width: 445px;
+    p {
+        margin-bottom: 31px;
+        line-height: 1.67;
+        letter-spacing: 0.18px;
+        color: #4C4764;
+    }
+}
+.descriptions-subtitle {
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: $second-color;
+}
+.descriptions-title {
+    margin-bottom: 50px;
+    font-size: 48px;
+    line-height: 1.17;
+}
+.description-link {
+    position: relative;
+    display: inline-block;
+    color: $second-color;
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.18px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: $second-color;
+        transition: width .4s ease-in-out;
+    }
+    &:hover::after {
+        width: 53%;
+    }
+}
+.green {
+    .descriptions-subtitle {
+        color: #19C787;
+    }
+    .description-link {
+        color: #19C787;
+        &::after {
+            background-color: #19C787;
+        }
+    }
+}
+
+.blue {
+    .descriptions-subtitle {
+        color: #0084FF;
+    }
+    .description-link {
+        color: #0084FF;
+        &::after {
+            background-color: #0084FF;
+        }
+    }
+}
+

@@ -1,0 +1,40 @@
+.title-center {
+    text-align: center;
+}
+.card-icons-inner {
+    margin-top: 32px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.capabalities-card {
+    margin-bottom: 24px;
+    margin-right: 23px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 280px;
+    height: 208px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: -1px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    transition: transform .3s ease, background-color .3s ease;
+    &:hover{
+        transform: translateY(-15px);
+        background-color: rgb(240, 240, 240);
+    }
+}
+.card-icon {
+    margin-bottom: 24px;
+}
+.card-title {
+    font-size: 17px;
+    line-height: 1.76;
+    letter-spacing: 0.18px;
+    color: $main-color;
+}

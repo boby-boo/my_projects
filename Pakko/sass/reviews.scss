@@ -1,0 +1,101 @@
+.reviews {
+margin-bottom: 112px;
+}
+.reviews-inner {
+    display: flex;
+    justify-content: center;
+    
+    .reviews-column--left {
+        padding-top: 37px;        
+        margin-right: 40px;
+        .reviews-card {
+            &:nth-child(2) {
+                background-color: #E8E5FB;
+            }
+            &:nth-child(3) {
+                background-color: #E8FAF3;
+            }
+            &:nth-child(4) {
+                background-color: #E6F3FF;
+            }
+            &:nth-child(5) {
+                background-color: #FFF5E1;
+            }
+        }
+    }
+    .reviews-column--right {
+        .reviews-card {
+            &:nth-child(1) {
+                background-color: #FDEBEE;
+            }
+            &:nth-child(2) {
+                background-color: #E6F3FF;
+            }
+            &:nth-child(3) {
+                background-color: #FFF5E1;
+            }
+            &:nth-child(4) {
+                background-color: #E8E5FB;
+            }
+            &:nth-child(5) {
+                background-color: #FDEBEE;
+            }
+        }
+    }
+}
+
+.reviews-title {
+    margin-bottom: 80px;
+}
+
+.reviews-card {
+    max-width: 596px;
+    margin-bottom: 40px;
+    padding: 40px;
+    // background-color: #E8E5FB;
+    border-radius: 8px;
+
+}
+.user-inner {
+    display: flex;
+    .user-image {
+        margin-right: 16px;
+    }
+}
+.user-info {
+    .user-name {
+        font-weight: 700;
+        line-height: 1.5;
+    }
+    p {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #4C4764;
+    }
+}
+
+.user-social {
+    margin-left: auto;
+}
+.reviews-card--content {
+    padding-top: 36px;
+    p {
+        margin-bottom: 20px;
+        font-size: 17px;
+        color: #4C4764;
+        line-height: 1.76;
+        letter-spacing: 0.18px;
+    }
+    a {
+        font-size: 16px;
+        color: #100A30;
+        font-weight: 700;
+        line-height: 1.5;
+
+        transition: color .2s ease;
+        &:hover {
+            color: #5C5C60;
+        }
+    }
+
+}

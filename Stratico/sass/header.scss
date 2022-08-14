@@ -1,0 +1,97 @@
+.header {
+    padding: 22px 0;
+    background-color: $light-color;
+    .header__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        position: relative;
+        padding-left: 34px;
+        display: inline-block;
+        &::before {
+
+            content: "";
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background-image: url(../src/header/logo-decor.svg);
+        }
+    }
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+    top: -1px;
+    position: relative;
+    .nav {
+        margin-right: 20px;
+    }
+    .nav__list {
+        display: flex;
+        li {
+            margin-left: 35px;
+            &:first-child {
+                margin-left: 0px;
+            }
+        }
+
+    }
+    .nav__link {
+        position: relative;
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            bottom: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: $secondary-color;
+            border-radius: 30px;
+            transition: width .2s ease-in;
+        }
+        &:hover:after{
+            width: 70%;
+        }
+    }
+}
+
+.header__buttons {
+
+.header__btn_login {
+    display: inline-block;
+
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $main-color;
+    &:hover{
+        background-color: #ddf0a8cc;
+    }
+}
+.header__btn_free {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 10px 22px;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $light-color; 
+    
+    background-color: $main-color;
+    &:hover{
+        background-color: #162e3ccc;
+    }
+}
+}

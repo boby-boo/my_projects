@@ -1,0 +1,65 @@
+/*
+Error: Undefined variable: "$second-color".
+        on line 9 of D:\EDUCATIONAL\Practica\Pakko\sass\gratuitement.scss
+
+4:     flex-direction: column;
+5:     justify-content: center;
+6:     align-items: center;
+7:     padding: 95px 0;
+8:     border-radius: 8px;
+9:     background-color: $second-color;
+10:     color: #fff;
+11:     overflow: hidden;
+12:     z-index: 5;
+13: 
+14:     &::before {
+
+Backtrace:
+D:\EDUCATIONAL\Practica\Pakko\sass\gratuitement.scss:9
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+D:/Programs/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+D:/Programs/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+D:/Programs/bin/sass:22:in `load'
+D:/Programs/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$second-color\".\A         on line 9 of D:\EDUCATIONAL\Practica\Pakko\sass\gratuitement.scss\A \A 4:     flex-direction: column;\A 5:     justify-content: center;\A 6:     align-items: center;\A 7:     padding: 95px 0;\A 8:     border-radius: 8px;\A 9:     background-color: $second-color;\A 10:     color: #fff;\A 11:     overflow: hidden;\A 12:     z-index: 5;\A 13: \A 14:     &::before {"; }

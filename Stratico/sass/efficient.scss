@@ -1,0 +1,77 @@
+.efficient {
+    padding: 128px 0;
+}
+.efficient__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+.efficient__content {
+    max-width: 600px;
+    margin-right: 50px;
+    .efficient__content_item {
+        margin-bottom: 15px;
+    }
+    .efficient__content-title {
+        margin-bottom: 27px;
+    }
+    .efficient__content-subtitle {
+        margin-bottom: 30px;
+    }
+}
+.efficient__content-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+    .efficient__card {
+        max-width: 288px;
+        margin-right: 20px;
+        font-family: 'Fraunces', serif;
+    }
+    .efficient__card-icon {
+        margin-bottom: 16px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 56px;
+        height: 56px;
+
+        background-color: $secondary-color;
+        border-radius: 16px;
+    }
+    .efficient__card-title {
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 17px;
+    }
+    .efficient__card-subtitle {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+.efficient__button-inner {
+    margin: 0;
+}
+
+
+.efficient__image {
+    
+}
+.efficient__card_item {
+    left: -48px;
+}
+
+.extend {
+    margin: 30px;
+    font-size: 28px;
+    color: red;
+    line-height: 1.5;
+}
+.inherit_extend {
+    @extend .extend;
+    color: blue;
+}

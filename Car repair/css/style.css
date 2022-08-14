@@ -1,0 +1,643 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+
+/* font-family: 'Poppins', sans-serif; */
+
+body {
+    box-sizing: border-box;
+    color: #000;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+    /* background-color: #fff;
+    background-image: url(/src/header/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.none{
+    display: none;
+}
+
+.header-background-inner {
+    background-image: url(/src/header/background-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* =================Header header START================== */
+
+.header-wrapper {
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 22px;
+
+}
+
+.header-nav-listem {
+    display: flex;
+}
+
+.header-nav-listem li+li {
+    padding-left: 35px;
+
+}
+
+.header-nav-link {
+
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+
+
+
+}
+
+.header-nav-link:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    color: #fff;
+    background-color: #fff;
+    transform: translateY(6px);
+    opacity: 0;
+    transition: opacity .2s ease-in;
+}
+
+.header-nav-link:hover:after {
+    opacity: 1;
+}
+
+
+
+.header-language-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #B7B7B7;
+    font-weight: 600;
+    transition: color .2s ease-in;
+}
+
+
+
+.header-language-link:hover {
+    color: #fff;
+}
+
+.header-language a+a {
+    margin-left: 8px;
+}
+
+/* =================Header header END================== */
+/* =================Header main START================== */
+.header-main--title {
+    max-width: 791px;
+    padding-top: 110px;
+
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-button {
+    margin-top: 53px;
+    padding-bottom: 305px;
+}
+
+.main--button {
+    padding: 12px 48px;
+
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #DB2512;
+    transition: background-color .2s ease-in;
+
+
+}
+
+.main--button:hover {
+    background-color: #c32311;
+
+}
+
+/* =================Header main END================== */
+/* =================section CARDS START================== */
+
+.card-inner {
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+
+}
+
+.card_block {
+    width: 386px;
+    height: 196px;
+    padding-left: 39px;
+    background-color: #fff;
+
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    transition: background-color .3s ease-in;
+
+}
+
+.card_block:hover {
+    background-color: #c32311;
+}
+
+
+
+.card-item {
+
+    padding-top: 39px;
+
+}
+
+.card-title {
+    padding-top: 21px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.15em;
+
+}
+
+.card-subtitle {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #B7B7B7;
+}
+
+/* =================section CARDS END================== */
+.service-wrapper {
+    margin-top: 99px;
+}
+
+.service-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 15px;
+
+
+}
+
+.service-link {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.15em;
+
+    text-decoration: underline;
+
+}
+
+
+.service-wrapper-card {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+ 
+}
+
+.service-card {
+    flex-wrap: wrap;
+    row-gap: 30px;
+    display: inline-block;
+    position: relative;
+    width: 386px;
+    height: 500px;
+
+}
+.service-card::before{
+    content: '';
+    transition: background-color .3s ease-in;
+    
+}
+
+.service-card:hover::before{
+
+    content: '';
+    position: absolute;
+    display: block;
+    width: 386px;
+    height: 500px;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url(/src/plus.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+
+}
+
+.service-card-img{
+    background-color: none;
+}
+.card-text-wrapper{
+    position: relative;
+
+}
+.card-text-wrapper::after{
+    content: 'ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH';
+    position: absolute;
+    max-width: 282px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+
+    top: -164px;
+    left: 29px;
+
+    opacity: 0;
+    transition: opacity .4s ease-in;
+    
+
+}
+
+
+.service-card-text {
+    max-width: 289px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    padding-left: 29px;
+
+    opacity: 0;
+    
+
+}
+.service-card:hover .card-text-wrapper::after{
+    opacity: 1;
+
+}
+
+
+
+
+.service-card-title {
+    color: #000;
+    margin-top: 21px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+
+    line-height: 30px;
+    letter-spacing: 0.23em;
+
+
+}
+/* =================section service END================== */
+/* =================section about START================== */
+
+.about-background-inner {
+    margin-top: 98px;
+    background-color: #171616;
+}
+
+.about-wrapper {
+    padding: 117px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: center;
+
+}
+
+
+
+.about-info {
+   
+    max-width: 506px;
+    
+}
+.about-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+.about-subtitle {
+    margin-top: 42px;
+
+    color: #B7B7B7;
+    font-weight: 600;
+    letter-spacing: 0.23em;
+    line-height: 22px;
+    padding-bottom: 48px;
+
+
+
+}
+.about-link {
+
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 27px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+   
+}
+
+
+
+/* =================section about END================== */
+/* =================section our-work STARTS================== */
+
+.instruction-wrapper {
+    margin-top: 99px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.instruction-title {
+    font-size: 148px;
+    font-weight: 900;
+    line-height: 222px;
+    text-align: center;
+}
+.instruction-subtitle {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    margin-bottom: 92px;
+}
+.instruction-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.instruction-card {
+    width: 386px;
+    height: 150px;
+    line-height: 27px;
+    
+    padding-top: 31px;
+    padding-left: 31px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    transition: color .2s ease-in, background-color .2s ease-in;
+}
+.instruction-card:hover{
+    color: #fff;
+    background-color: #c32311;
+
+}
+.instruction-card-title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+}
+.instruction-card-subtitle {
+    width: 332px;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #B7B7B7;
+    text-transform: none;
+
+}
+/* =================section our-work END================== */
+/* =================section contact START================== */
+
+.contact-form{
+    padding-top: 97px;
+}
+
+.contact-title {
+
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+.name-form{
+    position: relative;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #171616;
+    margin: 47px 190px 55px 0;
+}
+
+.form-btn{
+    margin-top: 37px;
+    padding-bottom: 97px;
+ 
+}
+.form--button{
+    width: 197px;
+
+padding: 12px 76px;
+
+color: #fff;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+background-color: #DB2512;
+transition: background-color .2s ease-in;
+
+
+}
+
+.form--button:hover {
+background-color: #c32311;
+
+}
+/* =================section contact End================== */
+/* =================Footer Start================== */
+.footer-wraper {
+    padding: 66px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text {
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+
+
+}
+.footer-social-link {
+    display: inline-block;
+
+
+}
+.footer-social-link + .footer-social-link{
+    padding-left: 22px;
+}
+
+.footer-social-img path{
+
+    fill:#000;
+    transition: fill .2s ease-in;
+}
+
+.footer-social-img path:hover{
+
+    fill:#656cf9;
+}
+.footer-social-img-fb path{
+    fill:#000;
+    transition: fill .2s ease-in;
+
+
+}
+.footer-social-img-fb path:hover{
+    fill:rgb(24, 8, 163);
+ 
+    
+
+}
+.footer-social-img-inst path{
+    fill:#000;
+    transition: fill .2s ease-in;
+
+
+}
+.footer-social-img-inst path:hover{
+    fill:rgb(189, 91, 177);
+ 
+    
+
+}
+
+/* =================Footer End================== */
+
+
+  
+
+
+

@@ -1,0 +1,49 @@
+.main {
+    background-color: $main-color;
+    padding-top: 64px;
+}
+
+.main-content {
+    max-width: 575px;
+    margin: 0 auto;
+    p{
+        line-height: 1.88;
+        letter-spacing: 0.18px;
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 48px;
+    }
+}
+.main-title {
+    text-align: center;
+    font-size: 55px;
+    line-height: 1.16;
+    letter-spacing: 0.56px;
+    color: $light-color;
+
+    margin-bottom: 26px;
+}
+.main-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    * + *{
+        margin-left: 16px;
+    }
+}
+.creat-button {
+    padding: 15px 36px;
+    background-color: $second-color;
+}
+.play-button {
+    padding: 15px 37px;
+    border: 1px solid #E5E5E5;
+}
+.inner {
+    padding-top: 50px;
+    text-align: center;
+}
+.desktop {
+    width: 100%;
+    margin: -44px;
+}

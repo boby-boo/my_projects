@@ -1,0 +1,54 @@
+.header {
+    padding: 33px 0;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo {
+    margin-right: auto;
+}
+.nav-list {
+    display: flex;
+}
+.nav-link {
+
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: $main-color;
+    transition: color .2s ease;
+    &:hover{
+        color: $hover-color;
+    }
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    path {
+        fill: #141414;
+        transition: fill .2s ease;
+    }
+}
+    .nav-item {
+    margin-right: 40px;
+    &:first-child {
+        position: relative;
+        padding-right: 21px;
+        &:hover .arrow {
+            path{
+                fill: $hover-color;
+            }
+        }
+        
+    }
+}
+
+.header-button {
+    padding: 12px 24px;
+    background-color: $second-color;
+
+}

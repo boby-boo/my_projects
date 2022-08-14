@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Pakko</title>
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">
+                    <svg width="92" height="24" viewBox="0 0 92 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_2_12)">
+                            <path
+                                d="M0 23.7409H11.3684V22.5101L8.55061 21.668V14.6397L9.52227 14.8988C10.753 15.2551 11.9514 15.417 13.085 15.417C17.4251 15.417 20.664 12.8583 20.664 8.42105C20.664 3.95142 17.0688 1.45749 11.0769 1.45749H0V2.68826L2.65587 3.53036V21.668L0 22.5101V23.7409ZM8.55061 3.49798H10.5911C13.7976 3.49798 14.6397 4.34008 14.6397 8.42105C14.6397 12.081 14.1215 13.247 11.336 13.247C11.0121 13.247 10.6235 13.247 10.2348 13.2146L8.55061 13.085V3.49798Z"
+                                fill="#100A30" />
+                            <path
+                                d="M24.8996 24C27.1344 24 29.0129 22.3482 29.9522 20.7287C29.9522 22.7692 31.2801 23.9352 33.4178 23.9352C35.0048 23.9352 36.0413 23.3522 36.8834 22.8664V21.5709C35.102 21.4089 34.8105 21.2794 34.8105 20.3077V14.8664C34.8105 9.19838 32.4461 7.51417 28.106 7.51417C25.2234 7.51417 21.3044 8.71255 21.3044 11.6599C21.3044 13.1174 22.2437 14.1538 23.6364 14.1538C24.8996 14.1538 25.8388 13.2794 25.8388 12.1458C25.8388 11.1417 25.3206 10.2024 24.0574 9.94332V9.87854C24.5109 9.74899 25.2882 9.61943 26.357 9.61943C28.7538 9.61943 29.9522 10.17 29.9522 12.4696V14.8664L27.1991 15.3522C22.7943 16.0972 20.8186 17.4575 20.8186 20.2753C20.8186 22.5425 22.5676 24 24.8996 24ZM27.2315 21.1498C26.2599 21.1498 25.6769 20.6964 25.6769 19.4332C25.6769 18.0405 26.1951 17.3603 27.8793 16.7449L29.9522 16V19.6275C29.2072 20.5992 28.3004 21.1498 27.2315 21.1498Z"
+                                fill="#100A30" />
+                            <path
+                                d="M47.5673 23.7409H55.956V21.9595H54.5633L49.122 13.5709L53.041 9.81377H55.1139V8.03239H47.5349V9.81377H49.6078L44.2313 16.4211V0H43.0977L36.8791 2.42915V3.1417L39.373 4.53441V21.9595H37.2677V23.7409H45.6564V21.9595H44.2313V18.2672L45.9155 16.6478L49.0896 21.9595H47.5673V23.7409Z"
+                                fill="#100A30" />
+                            <path
+                                d="M66.8677 23.7409H75.2563V21.9595H73.8636L68.4223 13.5709L72.3414 9.81377H74.4142V8.03239H66.8353V9.81377H68.9082L63.5316 16.4211V0H62.398L56.1794 2.42915V3.1417L58.6733 4.53441V21.9595H56.5681V23.7409H64.9568V21.9595H63.5316V18.2672L65.2159 16.6478L68.3899 21.9595H66.8677V23.7409Z"
+                                fill="#100A30" />
+                            <path
+                                d="M83.3738 24C88.3616 24 91.892 19.919 91.892 15.7409C91.892 11.5628 88.3616 7.51417 83.3738 7.51417C78.3859 7.51417 74.8555 11.5628 74.8555 15.7409C74.8555 19.919 78.3859 24 83.3738 24ZM83.3738 22.1862C81.4304 22.1862 80.2644 21.1174 80.2644 15.7409C80.2644 10.332 81.4628 9.32794 83.3738 9.32794C85.2847 9.32794 86.4831 10.2996 86.4831 15.7409C86.4831 21.1174 85.3171 22.1862 83.3738 22.1862Z"
+                                fill="#100A30" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_2_12">
+                                <rect width="92" height="24" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Fonctionnalités
+                            <svg class="arrow" width="6" height="4" viewBox="0 0 6 4"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_26)">
+                                    <path d="M3 4L0 0L6 5.24537e-07L3 4Z" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_26">
+                                        <rect width="6" height="4" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Tarifs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">App iOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Me connecter</a>
+                    </li>
+                </ul>
+                <a href="#" class="button header-button">S'inscrire</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <div class="main-content">
+                <h1 class="main-title">Devis, factures, suivi, plafonds, cotisations</h1>
+                <p>Pakko accompagne les micro-entrepreneurs et leur fait gagner du temps !</p>
+                <div class="main-buttons">
+                    <a class="button creat-button" href="#">Créer mon compte</a>
+                    <a class="button play-button" href="#">Voir la vidéo</a>
+                </div>
+            </div>
+            <div class="inner">
+                <img class="desktop" src="../src/header/vae1.png" alt="desktop">
+            </div>
+        </div>
+    </section>
+
+    <section class="descriptions">
+        <div class="container">
+            <div class="descriptions-card--inner">
+
+                <div class="card-content">
+                    <div class="descriptions-card">
+                        <h5 class="descriptions-subtitle">Suivi et analyse</h5>
+                        <h2 class="descriptions-title">Chiffre d'affaires, cotisations, plafonds ...</h2>
+                        <p>Visualisez et comparez vos chiffres sur l'année, le trimestre ou le mois. Chiffre d'affaires,
+                            cotisations, plafonds, TVA récoltée, encaissements et ce qu'il reste dans votre poche
+                            réellement à la fin !</p>
+                        <a class="description-link" href="#">En savoir plus</a>
+                    </div>
+                    <div class="card-item">
+                        <img src="../src/descriptions/Card.png" alt="card item">
+                    </div>
+                </div>
+
+                <div class="card-content green">
+                    <div class="descriptions-card">
+                        <h5 class="descriptions-subtitle">Devis et facturation</h5>
+                        <h2 class="descriptions-title">Générez vos factures et devis en un rien de temps</h2>
+                        <p>Générez des factures et des devis esthétiques. Suivez chaque étape importante : envoyé, en
+                            retard, payé… Générez des acomptes et des soldes en quelques clics seulement.</p>
+                        <a class="description-link" href="#">En savoir plus</a>
+                    </div>
+                    <div class="card-item">
+                        <img src="../src/descriptions/Card1.png" alt="card item">
+                    </div>
+                </div>
+
+                <div class="card-content blue">
+                    <div class="descriptions-card">
+                        <h5 class="descriptions-subtitle">Gestion des projets et clients</h5>
+                        <h2 class="descriptions-title">Gérez facilement vos clients et projets</h2>
+                        <p>Créez rapidement vos projets et clients. Suivez les chiffres clés pour chacun. Retrouvez tous
+                            vos documents plus facilement.</p>
+                        <a class="description-link" href="#">En savoir plus</a>
+                    </div>
+                    <div class="card-item">
+                        <img src="../src/descriptions/Card2.png" alt="card item">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="capabilities">
+        <div class="container">
+
+            <h2 class="title title-center">Pensé pour les <br> micro-entrepreneurs</h2>
+            <div class="card-icons-inner">
+
+                <a class="capabalities-card" href="#">
+                    <img class="card-icon" src="../src/capabilities/icon-1.png" alt="capsbslities card">
+                    <h3 class="card-title">Gestion de l'ACRE</h3>
+                </a>
+
+                <a class="capabalities-card" href="#">
+                    <img class="card-icon" src="../src/capabilities/icon-2.png" alt="capsbslities card">
+                    <h3 class="card-title">Gestion de la TVA</h3>
+                </a>
+
+                <a class="capabalities-card" href="#">
+                    <img class="card-icon" src="../src/capabilities/icon-3.png" alt="capsbslities card">
+                    <h3 class="card-title">Calcul des cotisations</h3>
+                </a>
+
+                <a class="capabalities-card" href="#">
+                    <img class="card-icon" src="../src/capabilities/icon-4.png" alt="capsbslities card">
+                    <h3 class="card-title">Prélèvement libératoire</h3>
+                </a>
+
+
+                <a class="capabalities-card" href="#">
+                    <img class="card-icon" src="../src/capabilities/icon-5.png" alt="capsbslities card">
+                    <h3 class="card-title">Factures externes</h3>
+                </a>
+
+                <a class="capabalities-card" href="#">
+                    <img class="card-icon" src="../src/capabilities/icon-6.png" alt="capsbslities card">
+                    <h3 class="card-title">Plafonds CA & TVA</h3>
+                </a>
+
+                <a class="capabalities-card" href="#">
+                    <img class="card-icon" src="../src/capabilities/icon-7.png" alt="capsbslities card">
+                    <h3 class="card-title">Import de données</h3>
+                </a>
+
+                <a class="capabalities-card" href="#">
+                    <img class="card-icon" src="../src/capabilities/icon-8.png" alt="capsbslities card">
+                    <h3 class="card-title">Et plus à venir ...</h3>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <div class="container">
+            <h2 class="title title-center">Des tarifs qui s'adaptent<br>à votre activité !</h2>
+            <div class="subscribe-info">
+                <a class="button mensual-btn" href="#">Mensuel</a>
+                <a class="annual-btn" href="#">Annuel -16,5% 🎉</a>
+            </div>
+            <div class="subscribe-cards-inner">
+
+                <a class="subscribe-card" href="#">
+
+                    <div class="card-price">
+                        <img class="bg-imag" src="../src/subscribe/Frame.jpg" alt="">
+                        <div class="info-inner gratuit">
+                            <div class="info-class">
+                                <img src="../src/subscribe/logo-card.svg" alt="logo Pakko">
+                                <p>Gratuit</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="card-listem">
+                        <li>
+                            <svg class="card-listem--item gratuit" width="20" height="24" viewBox="0 0 20 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd"
+                                    d="M10 20.3333C14.6024 20.3333 18.3333 16.6024 18.3333 12C18.3333 7.39763 14.6024 3.66667 10 3.66667C5.39763 3.66667 1.66667 7.39763 1.66667 12C1.66667 16.6024 5.39763 20.3333 10 20.3333ZM10 22C4.47715 22 0 17.5228 0 12C0 6.47715 4.47715 2 10 2C15.5228 2 20 6.47715 20 12C20 17.5228 15.5228 22 10 22ZM8.8058 14.2011L5.58908 10.9863L4.41092 12.1652L8.80746 16.559L15.8733 9.47749L14.6935 8.30029L8.8058 14.2011Z" />
+                            </svg> Gratuit
+                        </li>
+                        <li>
+                            <svg class="card-listem--item gratuit" width="20" height="24" viewBox="0 0 20 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd"
+                                    d="M10 20.3333C14.6024 20.3333 18.3333 16.6024 18.3333 12C18.3333 7.39763 14.6024 3.66667 10 3.66667C5.39763 3.66667 1.66667 7.39763 1.66667 12C1.66667 16.6024 5.39763 20.3333 10 20.3333ZM10 22C4.47715 22 0 17.5228 0 12C0 6.47715 4.47715 2 10 2C15.5228 2 20 6.47715 20 12C20 17.5228 15.5228 22 10 22ZM8.8058 14.2011L5.58908 10.9863L4.41092 12.1652L8.80746 16.559L15.8733 9.47749L14.6935 8.30029L8.8058 14.2011Z" />
+                            </svg>
+                            Jusqu'à 4 clients
+                        </li>
+                        <li>
+                            <svg class="card-listem--item gratuit" width="20" height="24" viewBox="0 0 20 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd"
+                                    d="M10 20.3333C14.6024 20.3333 18.3333 16.6024 18.3333 12C18.3333 7.39763 14.6024 3.66667 10 3.66667C5.39763 3.66667 1.66667 7.39763 1.66667 12C1.66667 16.6024 5.39763 20.3333 10 20.3333ZM10 22C4.47715 22 0 17.5228 0 12C0 6.47715 4.47715 2 10 2C15.5228 2 20 6.47715 20 12C20 17.5228 15.5228 22 10 22ZM8.8058 14.2011L5.58908 10.9863L4.41092 12.1652L8.80746 16.559L15.8733 9.47749L14.6935 8.30029L8.8058 14.2011Z" />
+                            </svg>
+                            Chiffre d'affaires jusqu'à 5 000€
+                        </li>
+                    </ul>
+                </a>
+
+                <a class="subscribe-card" href="#">
+
+                    <div class="card-price">
+                        <img class="bg-imag" src="../src/subscribe/Frame (1).jpg" alt="">
+                        <div class="info-inner basique">
+                            <div class="info-class">
+                                <img src="../src/subscribe/logo-card.svg" alt="logo Pakko">
+                                <p>Basique</p>
+                            </div>
+                            <div class="info-price">
+                                <p> 5€ <span> /mois</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="card-listem basique--mod">
+                        <li>
+                            <svg class="card-listem--item basique" width="20" height="24" viewBox="0 0 20 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd"
+                                    d="M10 20.3333C14.6024 20.3333 18.3333 16.6024 18.3333 12C18.3333 7.39763 14.6024 3.66667 10 3.66667C5.39763 3.66667 1.66667 7.39763 1.66667 12C1.66667 16.6024 5.39763 20.3333 10 20.3333ZM10 22C4.47715 22 0 17.5228 0 12C0 6.47715 4.47715 2 10 2C15.5228 2 20 6.47715 20 12C20 17.5228 15.5228 22 10 22ZM8.8058 14.2011L5.58908 10.9863L4.41092 12.1652L8.80746 16.559L15.8733 9.47749L14.6935 8.30029L8.8058 14.2011Z" />
+                            </svg> Gratuit
+                        </li>
+                        <li>
+                            <svg class="card-listem--item basique" width="20" height="24" viewBox="0 0 20 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd"
+                                    d="M10 20.3333C14.6024 20.3333 18.3333 16.6024 18.3333 12C18.3333 7.39763 14.6024 3.66667 10 3.66667C5.39763 3.66667 1.66667 7.39763 1.66667 12C1.66667 16.6024 5.39763 20.3333 10 20.3333ZM10 22C4.47715 22 0 17.5228 0 12C0 6.47715 4.47715 2 10 2C15.5228 2 20 6.47715 20 12C20 17.5228 15.5228 22 10 22ZM8.8058 14.2011L5.58908 10.9863L4.41092 12.1652L8.80746 16.559L15.8733 9.47749L14.6935 8.30029L8.8058 14.2011Z" />
+                            </svg>
+                            Jusqu'à 4 clients
+                        </li>
+                        <li>
+                            <svg class="card-listem--item basique" width="20" height="24" viewBox="0 0 20 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd"
+                                    d="M10 20.3333C14.6024 20.3333 18.3333 16.6024 18.3333 12C18.3333 7.39763 14.6024 3.66667 10 3.66667C5.39763 3.66667 1.66667 7.39763 1.66667 12C1.66667 16.6024 5.39763 20.3333 10 20.3333ZM10 22C4.47715 22 0 17.5228 0 12C0 6.47715 4.47715 2 10 2C15.5228 2 20 6.47715 20 12C20 17.5228 15.5228 22 10 22ZM8.8058 14.2011L5.58908 10.9863L4.41092 12.1652L8.80746 16.559L15.8733 9.47749L14.6935 8.30029L8.8058 14.2011Z" />
+                            </svg>
+                            Chiffre d'affaires jusqu'à 5 000€
+                        </li>
+                    </ul>
+                </a>
+
+
+                <a class="subscribe-card" href="#">
+
+                    <div class="card-price">
+                        <img class="bg-imag" src="../src/subscribe/Frame (2).jpg" alt="">
+                        <div class="info-inner pro">
+                            <div class="info-class">
+                                <img src="../src/subscribe/logo-card.svg" alt="logo Pakko">
+                                <p> Pro</p>
+                            </div>
+                            <div class="info-price">
+                                <p>12€<span> /mois</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="card-listem pro--mod">
+                        <li>
+                            <svg class="card-listem--item pro" width="20" height="24" viewBox="0 0 20 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd"
+                                    d="M10 20.3333C14.6024 20.3333 18.3333 16.6024 18.3333 12C18.3333 7.39763 14.6024 3.66667 10 3.66667C5.39763 3.66667 1.66667 7.39763 1.66667 12C1.66667 16.6024 5.39763 20.3333 10 20.3333ZM10 22C4.47715 22 0 17.5228 0 12C0 6.47715 4.47715 2 10 2C15.5228 2 20 6.47715 20 12C20 17.5228 15.5228 22 10 22ZM8.8058 14.2011L5.58908 10.9863L4.41092 12.1652L8.80746 16.559L15.8733 9.47749L14.6935 8.30029L8.8058 14.2011Z" />
+                            </svg> Gratuit
+                        </li>
+                        <li>
+                            <svg class="card-listem--item pro" width="20" height="24" viewBox="0 0 20 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd"
+                                    d="M10 20.3333C14.6024 20.3333 18.3333 16.6024 18.3333 12C18.3333 7.39763 14.6024 3.66667 10 3.66667C5.39763 3.66667 1.66667 7.39763 1.66667 12C1.66667 16.6024 5.39763 20.3333 10 20.3333ZM10 22C4.47715 22 0 17.5228 0 12C0 6.47715 4.47715 2 10 2C15.5228 2 20 6.47715 20 12C20 17.5228 15.5228 22 10 22ZM8.8058 14.2011L5.58908 10.9863L4.41092 12.1652L8.80746 16.559L15.8733 9.47749L14.6935 8.30029L8.8058 14.2011Z" />
+                            </svg>
+                            Jusqu'à 4 clients
+                        </li>
+                        <li>
+                            <svg class="card-listem--item pro" width="20" height="24" viewBox="0 0 20 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd"
+                                    d="M10 20.3333C14.6024 20.3333 18.3333 16.6024 18.3333 12C18.3333 7.39763 14.6024 3.66667 10 3.66667C5.39763 3.66667 1.66667 7.39763 1.66667 12C1.66667 16.6024 5.39763 20.3333 10 20.3333ZM10 22C4.47715 22 0 17.5228 0 12C0 6.47715 4.47715 2 10 2C15.5228 2 20 6.47715 20 12C20 17.5228 15.5228 22 10 22ZM8.8058 14.2011L5.58908 10.9863L4.41092 12.1652L8.80746 16.559L15.8733 9.47749L14.6935 8.30029L8.8058 14.2011Z" />
+                            </svg>
+                            Chiffre d'affaires jusqu'à 5 000€
+                        </li>
+                    </ul>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews-inner">
+                <!-- reviews-column--left -->
+                <div class="reviews-column--left">
+
+                    <h2 class="title reviews-title">Ils en parlent <br>mieux que nous</h2>
+
+                    <div class="reviews-card">
+                        <div class="user-inner">
+                            <img class="user-image" src="../src/reviews/user1.png" alt="user sccount">
+                            <div class="user-info">
+                                <h5 class="user-name">Antony Legrand</h5>
+                                <p>@Wisibility</p>
+                            </div>
+                            <img class="user-social" src="../src/reviews/twitter.svg" alt="twitter">
+                        </div>
+                        <div class="reviews-card--content">
+                            <p>Merci pour toutes vos réponses concernant un bon service de facturation / suivi de CA
+                                pour les Free… Je crois qu'avec @Pakko_app j'ai trouvé ce que je cherche. Simple et
+                                efficace.</p>
+                            <a href="#">Voir le post</a>
+                        </div>
+
+
+                    </div>
+
+                    <div class="reviews-card">
+                        <div class="user-inner">
+                            <img class="user-image" src="../src/reviews/user2.svg" alt="user account">
+                            <div class="user-info">
+                                <h5 class="user-name">Retour utilisateur</h5>
+                                <p>Formulaire de feedback</p>
+                            </div>
+                            <img class="user-social" src="../src/reviews/message.svg" alt="message">
+                        </div>
+                        <div class="reviews-card--content">
+                            <p>Un onboarding clair et vraiment bien pensé. +10 pour les liens vers le site de l’URSSAF
+                                lors de l’inscription.</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="reviews-card">
+                        <div class="user-inner">
+                            <img class="user-image" src="../src/reviews/user3.svg" alt="user account">
+                            <div class="user-info">
+                                <h5 class="user-name">Retour utilisateur</h5>
+                                <p>Formulaire de feedback</p>
+                            </div>
+                            <img class="user-social" src="../src/reviews/twitter.svg" alt="twitter">
+                        </div>
+                        <div class="reviews-card--content">
+                            <p>J’aime beaucoup voir en un clin d’oeil ce que j’ai encaissé mais surtout ce qui reste
+                                dans ma
+                                poche après les cotisations.</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="reviews-card">
+                        <div class="user-inner">
+                            <img class="user-image" src="../src/reviews/user4.png" alt="user sccount">
+                            <div class="user-info">
+                                <h5 class="user-name">mood</h5>
+                                <p>@maudrchl</p>
+                            </div>
+                            <img class="user-social" src="../src/reviews/twitter.svg" alt="twitter">
+                        </div>
+                        <div class="reviews-card--content">
+                            <p>Je viens de commencer à utiliser Pakko pour mes projets freelance. Je ne peux que le
+                                recommander. Le produit est très bien pensé 👏</p>
+                            <a href="#">Voir le post</a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!--  END reviews-column--left -->
+                <!--  reviews-column--right -->
+                <div class="reviews-column--right">
+
+                    <div class="reviews-card">
+                        <div class="user-inner">
+                            <img class="user-image" src="../src/reviews/user5.svg" alt="user account">
+                            <div class="user-info">
+                                <h5 class="user-name">Retour utilisateur</h5>
+                                <p>Formulaire de feedback</p>
+                            </div>
+                            <img class="user-social" src="../src/reviews/message.svg" alt="message">
+                        </div>
+                        <div class="reviews-card--content">
+                            <p>C’est exactement ce que je cherchais.</p>
+                        </div>
+                    </div>
+
+                    <div class="reviews-card">
+                        <div class="user-inner">
+                            <img class="user-image" src="../src/reviews/user6.png" alt="user sccount">
+                            <div class="user-info">
+                                <h5 class="user-name">Matthieu Teyssandier</h5>
+                                <p>@m_teyssandier</p>
+                            </div>
+                            <img class="user-social" src="../src/reviews/twitter.svg" alt="twitter">
+                        </div>
+                        <div class="reviews-card--content">
+                            <p>@Pakko_app Best service de CA !</p>
+                            <a href="#">Voir le post</a>
+                        </div>
+
+
+                    </div>
+
+                    <div class="reviews-card">
+                        <div class="user-inner">
+                            <img class="user-image" src="../src/reviews/user7.svg" alt="user account">
+                            <div class="user-info">
+                                <h5 class="user-name">Retour utilisateur</h5>
+                                <p>Formulaire de feedback</p>
+                            </div>
+                            <img class="user-social" src="../src/reviews/message.svg" alt="message">
+                        </div>
+                        <div class="reviews-card--content">
+                            <p>Le service a l’air super ça faisait longtemps que je cherchais un dashboard aussi clean
+                                que le votre ! Ça donne envie de l'utiliser !</p>
+                        </div>
+                    </div>
+
+                    <div class="reviews-card">
+                        <div class="user-inner">
+                            <img class="user-image" src="../src/reviews/user8.png" alt="user account">
+                            <div class="user-info">
+                                <h5 class="user-name">Maxine Ficheux</h5>
+                                <p>@Maxine_fi</p>
+                            </div>
+                            <img class="user-social" src="../src/reviews/message.svg" alt="message">
+                        </div>
+                        <div class="reviews-card--content">
+                            <p>Je n'utilise plus que ça ! C'est super simple, assez joli et abordable, le top quoi !</p>
+                            <a href="#">Voir le post</a>
+                        </div>
+                    </div>
+
+                    <div class="reviews-card">
+                        <div class="user-inner">
+                            <img class="user-image" src="../src/reviews/user5.svg" alt="user account">
+                            <div class="user-info">
+                                <h5 class="user-name">Retour utilisateur</h5>
+                                <p>Formulaire de feedback</p>
+                            </div>
+                            <img class="user-social" src="../src/reviews/message.svg" alt="message">
+                        </div>
+                        <div class="reviews-card--content">
+                            <p>Trop bien de pouvoir demandé un acompte ou le solde !!!!</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--  reviews-column--right -->
+            </div>
+        </div>
+    </section>
+
+    <section class="gratuitement">
+        <div class="container">
+            <div class="gratuitement-column">
+                <h4 class="gratuitement-title">Prêt à gagner du temps ?</h4>
+                <h2 class="gratuitement--label">Essayez gratuitement</h2>
+                <a href="#!" class="gratuitement--btn button">S'inscrire</a>
+                <img class="gratuitement-decor-1" src="../src/gratuitement/decor-1.svg" alt="decoration">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+
+                <div class="footer-column--social">
+                    <img class="logo" src="../src/header/logo.svg" alt="">
+                    <div class="footer-description">
+                        <p>Gagnez du temps,<br>faites ce que vous aimez !</p>
+                        <div class="footer-social">
+                            <a href="#" class="footer-social--link">
+                                <svg class="footer-social--icon fa" width="20" height="24" viewBox="0 0 20 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.8571 4H2.14286C1.57454 4 1.02949 4.22577 0.627628 4.62763C0.225765 5.02949 0 5.57454 0 6.14286V21.8571C0 22.4255 0.225765 22.9705 0.627628 23.3724C1.02949 23.7742 1.57454 24 2.14286 24H8.27009V17.2004H5.45759V14H8.27009V11.5607C8.27009 8.78616 9.92188 7.25357 12.4518 7.25357C13.6634 7.25357 14.9304 7.46964 14.9304 7.46964V10.1929H13.5344C12.1589 10.1929 11.7299 11.0464 11.7299 11.9219V14H14.8004L14.3094 17.2004H11.7299V24H17.8571C18.4255 24 18.9705 23.7742 19.3724 23.3724C19.7742 22.9705 20 22.4255 20 21.8571V6.14286C20 5.57454 19.7742 5.02949 19.3724 4.62763C18.9705 4.22577 18.4255 4 17.8571 4Z" />
+                            </svg>
+                            </a>
+                            <a href="#" class="footer-social--link">
+                                <svg class="footer-social--icon in" width="20" height="24" viewBox="0 0 20 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_323)">
+                                    <path
+                                        d="M10.0022 8.87225C7.16453 8.87225 4.87563 11.1617 4.87563 14C4.87563 16.8383 7.16453 19.1277 10.0022 19.1277C12.8399 19.1277 15.1288 16.8383 15.1288 14C15.1288 11.1617 12.8399 8.87225 10.0022 8.87225ZM10.0022 17.3337C8.16843 17.3337 6.66927 15.8387 6.66927 14C6.66927 12.1613 8.16397 10.6663 10.0022 10.6663C11.8405 10.6663 13.3352 12.1613 13.3352 14C13.3352 15.8387 11.836 17.3337 10.0022 17.3337ZM16.5343 8.6625C16.5343 9.32746 15.9989 9.85853 15.3385 9.85853C14.6737 9.85853 14.1428 9.32299 14.1428 8.6625C14.1428 8.00201 14.6782 7.46647 15.3385 7.46647C15.9989 7.46647 16.5343 8.00201 16.5343 8.6625ZM19.9297 9.87638C19.8539 8.27424 19.488 6.85507 18.3146 5.68582C17.1456 4.51657 15.7267 4.15062 14.1249 4.07029C12.4741 3.97657 7.52593 3.97657 5.87507 4.07029C4.27775 4.14616 2.8589 4.5121 1.68544 5.68136C0.511991 6.85061 0.150586 8.26978 0.0702733 9.87192C-0.0234244 11.5231 -0.0234244 16.4724 0.0702733 18.1236C0.146124 19.7258 0.511991 21.1449 1.68544 22.3142C2.8589 23.4834 4.27329 23.8494 5.87507 23.9297C7.52593 24.0234 12.4741 24.0234 14.1249 23.9297C15.7267 23.8538 17.1456 23.4879 18.3146 22.3142C19.4835 21.1449 19.8494 19.7258 19.9297 18.1236C20.0234 16.4724 20.0234 11.5276 19.9297 9.87638ZM17.797 19.8953C17.449 20.7701 16.7752 21.4439 15.8963 21.7965C14.58 22.3186 11.4568 22.1981 10.0022 22.1981C8.54769 22.1981 5.41997 22.3142 4.1082 21.7965C3.23369 21.4484 2.55996 20.7745 2.20747 19.8953C1.68544 18.5788 1.80591 15.4549 1.80591 14C1.80591 12.5451 1.68991 9.41671 2.20747 8.10465C2.55549 7.22995 3.22922 6.55606 4.1082 6.2035C5.42443 5.68136 8.54769 5.80185 10.0022 5.80185C11.4568 5.80185 14.5845 5.68582 15.8963 6.2035C16.7708 6.5516 17.4445 7.22548 17.797 8.10465C18.319 9.42118 18.1985 12.5451 18.1985 14C18.1985 15.4549 18.319 18.5833 17.797 19.8953Z" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_323">
+                                        <rect width="20" height="20" fill="white" transform="translate(0 4)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            </a>
+                            <a href="#" class="footer-social--link">
+                                <svg class="footer-social--icon lin" width="20" height="24" viewBox="0 0 20 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.5714 4H1.42411C0.638393 4 0 4.64732 0 5.44196V22.558C0 23.3527 0.638393 24 1.42411 24H18.5714C19.3571 24 20 23.3527 20 22.558V5.44196C20 4.64732 19.3571 4 18.5714 4ZM6.04464 21.1429H3.08036V11.5982H6.04911V21.1429H6.04464ZM4.5625 10.2946C3.61161 10.2946 2.84375 9.52232 2.84375 8.57589C2.84375 7.62946 3.61161 6.85714 4.5625 6.85714C5.50893 6.85714 6.28125 7.62946 6.28125 8.57589C6.28125 9.52679 5.51339 10.2946 4.5625 10.2946ZM17.1562 21.1429H14.192V16.5C14.192 15.3929 14.1696 13.9688 12.6518 13.9688C11.1071 13.9688 10.8705 15.1741 10.8705 16.4196V21.1429H7.90625V11.5982H10.75V12.9018H10.7902C11.1875 12.1518 12.1563 11.3616 13.5982 11.3616C16.5982 11.3616 17.1562 13.3393 17.1562 15.9107V21.1429Z" />
+                            </svg>   
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <ul class="footer-column--list">Fonctionnalités
+                        <li>
+                            <a class="footer-column--link" href="#">Suivi et analyse de l'activité</a>
+                        </li>
+                        <li>
+                            <a class="footer-column--link" href="#">Devis & facturation</a>
+                        </li>
+                        <li>
+                            <a class="footer-column--link" href="#">Gestion des projets et clients</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <ul class="footer-column--list">À propos
+                        <li>
+                            <a class="footer-column--link" href="#">Tarifs</a>
+                        </li>
+                        <li>
+                            <a class="footer-column--link" href="#">Centre d'aide</a>
+                        </li>
+                        <li>
+                            <a class="footer-column--link" href="#">CGV</a>
+                        </li>
+                        <li>
+                            <a class="footer-column--link" href="#">Politique de confidentialité</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <ul class="footer-column--list">Ressources
+                        <li>
+                            <a class="footer-column--link" href="#">Deals</a>
+                        </li>
+                        <li>
+                            <a class="footer-column--link" href="#">Outils</a>
+                        </li>
+                        <li>
+                            <a class="footer-column--link" href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class="footer-column--link" href="#">Simulateur TJM</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

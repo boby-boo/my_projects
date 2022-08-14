@@ -1,0 +1,63 @@
+.gratuitement-column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 95px 0;
+    border-radius: 8px;
+    background-color: $second-color;
+    color: #fff;
+    overflow: hidden;
+    z-index: 5;
+
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        background-color: $second-color;
+        top: -2px;
+        right: -1px;
+        z-index: 2;
+
+    }
+    
+    &::after {
+        content: "";
+        position:absolute;
+        display: block;
+        width: 250px;
+        height: 250px;
+        background-color: $main-color;
+        top: 0;
+        right: 0;
+    }
+}
+.gratuitement-decor-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.gratuitement-title {
+    line-height: 1.88;
+    letter-spacing: 0.18px;
+    margin-bottom: 8px;
+    z-index: 5;
+}
+.gratuitement--label {
+    font-size: 48px;
+    line-height: 1.12;
+    margin-bottom: 43px;
+    z-index: 5;
+}
+.gratuitement--btn {
+    display: inline-block;
+    padding: 15px 36px;
+    background-color: $main-color;
+    border-radius: 6px;
+    z-index: 3;
+}
+

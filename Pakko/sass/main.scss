@@ -1,0 +1,50 @@
+@import "./reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+$main-color: #100A30;
+$second-color: #624DE3;
+$hover-color: #5e52ab;
+$light-color: #fff;
+
+body{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: $main-color;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 1260px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.button {
+    font-size: 16px;
+    font-weight: 400;
+    color: $light-color;
+    border-radius: 6px;
+    transition: background-color .3s ease;
+    &:hover {
+        background-color: $hover-color;
+    }
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.17;
+    color: $main-color;
+}
+.none{
+    display: none;
+}
+
+@import "./header.scss";
+@import "./section-main.scss";
+@import "./descriptions.scss";
+@import "./capabilities.scss";
+@import "./subscribe.scss";
+@import "./reviews.scss";
+@import "./gratuitement.scss";
+@import "./footer.scss";

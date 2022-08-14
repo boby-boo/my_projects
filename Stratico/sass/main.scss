@@ -1,0 +1,103 @@
+@import "./reset-style.scss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+// font-family: 'Space Grotesk', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+// font-family: 'Fraunces', serif;
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+
+$main-color: #162E3C;
+$secondary-color: #DDF0A7;
+$light-color: #ffffff;
+
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1310px;
+    padding: 0 15px;
+
+    color: $main-color;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+.none {
+    display: none;
+}
+
+.button {
+    border: 2px solid $main-color;
+    border-radius: 64px;
+    transition: all .3s ease-in;
+}
+.main__item {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: $main-color;
+    padding: 4px 12px;
+    background-color: #DDF0A7;
+    border-radius: 64px;
+}
+.main__title {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: $main-color;
+}
+.main__description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #49616E;
+}
+.main__link {
+    position: relative;
+    padding-right: 24px;
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.07;
+    color: $main-color;
+    transition: color .2s ease-in;
+    &:after{
+        content: "";
+        position: absolute;
+        width: 6px;
+        height: 10px;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background-image: url(../src/speed/arrow-link.svg);
+
+        transition: right .2s ease-in;
+    }
+    &:hover {
+        color: #1c3d51;
+        &:after{
+            right: 3px;
+        }
+    }
+}
+
+
+@import "./header.scss";
+@import "./main-content.scss";
+@import "./speed.scss";
+@import "./main__image-card.scss";
+@import "./startup.scss";
+@import "./efficient.scss";
+
+
+
+@import "./media.scss";
