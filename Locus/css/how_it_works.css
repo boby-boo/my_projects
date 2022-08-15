@@ -1,0 +1,207 @@
+.works {
+    padding: 120px 0;
+}
+.works-top {
+    max-width: 506px;
+    margin: 0 auto;
+    margin-bottom: 71px;
+    text-align: center;
+}
+.works-top_title {
+    margin-bottom: 20px;
+}
+.works-middle {
+    display: flex;
+    position: relative;
+}
+.works-middle__image {
+    position: relative;
+    max-width: 1063px;
+    max-height: 350px;
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+.works-middle__image img {
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+/* ===================START PLAY BUTTON===================================================== */
+.works-middle__button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 128px;
+    height: 128px;
+    max-width: 100%;
+    background-color: #ffffff66;
+    border-radius: 65px;
+    bottom: 40px;
+    right: -69px;
+    z-index: 1;
+}
+.works-middle__button-circle {
+    width: 100px;
+    height: 100px; 
+    background-color: var(--bg-color);
+    border-radius: 65px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.works-middle__button_play {
+    z-index: 1;
+}
+.works-middle__button:hover .works-middle__button-circle {
+    background-color: var(--light-color);
+}
+.works-middle__button:hover .works-middle__button_play path {
+    fill: var(--bg-color);
+    transition: all 0.3s ease;
+}
+/* ===================END PLAY BUTTON===================================================== */
+.works-middle__content {
+    max-width: 549px;
+    width: 100%;
+    padding: 10px 0px 20px 115px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    color: var(--grey-color);
+    background-color: var(--decor-color);
+}
+.works-middle__content_text {
+    max-width: 328px;
+    font-weight: 500;
+}
+.works-middle__content_text p {
+    margin-bottom: 41px;
+}
+.works-middle__content_video {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+/* ========================================@MEDIA MIDDLE=============================================== */
+ @media(max-width:1280px) {
+    .works-middle {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .works-middle__image img {
+        border-radius: 10px;
+    }
+    .works-middle__content {
+        max-width: 1063px;
+        width: 100%;
+        padding: 0;
+        border-radius: 10px;
+    }
+    .works-middle__content_text {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .works-middle__content_text p {
+        margin-bottom: 0px;
+    }
+    .works-middle__button {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+ }
+ @media(max-width:769px) {
+    .works {
+        padding: 20px 0;
+    }
+    .works-top {
+        margin-bottom: 20px;
+    }
+    .works-top_title {
+        margin-bottom: 5px;
+    }
+    .works-middle__content {
+        font-size: 15px;
+    }
+    .works-middle__button {
+        width: 78px;
+        height: 78px;
+    }
+    .works-middle__button-circle {
+        width: 60px;
+        height: 60px; 
+    }
+    .works-middle__button_play {
+        width: 20px;
+        height: 20px;
+    }
+ }
+/* ================works-bottom ================================================ */
+ .works-bottom {
+    padding: 150px 0 120px;
+    display: flex;
+    gap: 142px;
+}
+.works-bottom__image {
+    max-width: 642px;
+}
+.works-bottom__image img {
+    max-width: 100%;
+}
+.works-bottom__text {
+    max-width: 708px;
+}
+.works-bottom__title {
+    max-width: 487px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.works-bottom__subtitle {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--grey-color);
+}
+@media(max-width:1280px) {
+    .works-bottom {
+        padding: 30px 0 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .works-bottom__text {
+        max-width: 100%;
+        text-align: center;
+    }
+    .works-bottom__title {
+        max-width: none;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .works-bottom__subtitle {
+        font-size: 20px;
+    }
+}
+@media(max-width:425px) {
+    .works-bottom__title {
+        font-size: 20px;
+        line-height: 1.3;
+        margin-bottom: 12px;
+    }
+    .works-bottom__subtitle {
+        font-size: 14px;
+    }
+}
