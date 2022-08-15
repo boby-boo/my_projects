@@ -31,16 +31,20 @@
 /* ===================START PLAY BUTTON===================================================== */
 .works-middle__button {
     position: absolute;
+
     display: flex;
     justify-content: center;
     align-items: center; 
+
     width: 128px;
     height: 128px;
     max-width: 100%;
+
     background-color: #ffffff66;
     border-radius: 65px;
     bottom: 40px;
     right: -69px;
+    
     z-index: 1;
 }
 .works-middle__button-circle {

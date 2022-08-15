@@ -1,10 +1,10 @@
 :root {
     --bg-color: #fff;
     --dark-color: #404242;
-    --light-color: #58A9A5;
-    --m-dark-color: #1C2323;
+    --light-color: #58a9a5;
+    --m-dark-color: #1c2323;
     --grey-color: #486958;
-    --decor-color: #CCF0E6;
+    --decor-color: #ccf0e6;
 }
 body {
     font-family: 'Poppins', sans-serif;
